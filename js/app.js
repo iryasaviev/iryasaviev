@@ -13,7 +13,7 @@ var menu = {
 var works = {
     wrapper: app.getElementsByClassName('WorksWrapper')[0],
 
-    list: ['<div class="ws_bd-item"><div class="ws_bd-item_bd"><img class="ws_bd-item--img" src="images/HimproduktGif.gif"><div class="ws_bd-item--txt ws_bd-item--txt1">SITE DEVELOPMENT</div><div class="ws_bd-item--txt ws_bd-item--txt2">SITE PROMOTION</div><div class="ws_bd-item--txt ws_bd-item--txt3">DESIGN</div><div class="ws_bd-item--txt ws_bd-item--txt4">TECHICAL SUPPORT</div></div></div>', '<h1>Glikoterm</h1>', '<h1>Цветущий рай</h1>'],
+    list: ['<div class="ws_bd-item"><div class="ws_bd-item_bd"><img class="ws_bd-item--img" src="images/HimproduktGif.gif"><div class="ws_bd-item--txt ws_bd-item--txt1">SITE DEVELOPMENT</div><div class="ws_bd-item--txt ws_bd-item--txt2">SITE PROMOTION</div><div class="ws_bd-item--txt ws_bd-item--txt3">DESIGN</div><div class="ws_bd-item--txt ws_bd-item--txt4">TECHICAL SUPPORT</div><div class="ws_bd-item_bd-bcg"><a class="ws_bd-item_bd-bcg--a" href="http://www.himprodukt.com">himprodukt.com</a></div></div></div>', '<h1>Glikoterm</h1>', '<h1>Цветущий рай</h1>'],
 
     menu: {
         Open: function(click){

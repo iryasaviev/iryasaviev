@@ -189,6 +189,33 @@
     box-sizing:border-box;
     margin:auto;
 }
+.ws_bd-item_bd-bcg{
+    background:none;
+}
+.ws_bd-item_bd-bcg:hover{
+    background:rgba(0, 0, 0, 0.45);
+}
+.ws_bd-item_bd-bcg,
+.ws_bd-item_bd-bcg--a{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    transition:0.22s;
+}
+.ws_bd-item_bd-bcg--a{
+    color:#fff;
+    margin:auto;
+    line-height:50px;
+    max-height:50px;
+    text-decoration:none;
+    font-size:50px;
+    opacity:0.4;
+}
+.ws_bd-item_bd-bcg:hover .ws_bd-item_bd-bcg--a{
+    opacity:1;
+}
 
 .ws_bd-item--img{
     margin:auto;
