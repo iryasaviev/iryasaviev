@@ -3,6 +3,13 @@
     padding:0;
 }
 
+a{
+    color:#9e9e9e;
+}
+a:hover{
+    color:#191919;
+}
+
 .app_wr{
     font-family:'Merriweather', serif;
     position:absolute;
@@ -122,6 +129,20 @@
     -webkit-transform:skew(20deg, -20deg);
     transform:skew(20deg, -20deg);
     margin-top:-5px;
+}
+.mn_bd-cts{
+    position:absolute;
+    right:50px;
+    bottom:0;
+    float:right;
+    font-size:12px;
+    text-align:right;
+}
+.mn_bd-cts-item{
+    margin:7px 0;
+}
+.mn_bd-cts-item--a{
+    text-decoration:none;
 }
 
 
